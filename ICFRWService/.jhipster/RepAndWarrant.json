@@ -1,0 +1,26 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "repAndWarrantId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "sellerId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20160523210744",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "rep_and_warrant",
+    "pagination": "no",
+    "microserviceName": "FFBJavaRW",
+    "searchEngine": "no"
+}
